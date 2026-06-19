@@ -8,5 +8,5 @@ export const connectMongoDB = async () => {
   }
 
   await mongoose.connect(MONGO_URL);
-  console.log('MongoDB connection established successfully');
+  console.log('✅ MongoDB connection established successfully');
 };
