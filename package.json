@@ -2,6 +2,7 @@
   "name": "nodejs-hw",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
@@ -15,7 +16,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
   "bugs": {
     "url": "https://github.com/juliaofaragon-lab/nodejs-hw/issues"
   },
