@@ -20,6 +20,13 @@ app.use(logger);
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({ credentials: true, origin: true }));
+
+app.get('/', (_req, res) => {
+  res.status(200).json({
+    message: 'Notes API is running',
+  });
+});
+
 app.use(authRoutes);
 app.use(notesRoutes);
 app.use(errors());
